@@ -15,7 +15,7 @@ export class SearchComponent {
 
   constructor(private http:HttpClient) { 
   }
-  Token='8db500fac7d0bc78a5615c92ddbfde5a'
+  Token='69f179b83bfc632ae61d7b87fb226ef3'
  
   submit(query: HTMLInputElement): void {
     if (!query.value) {
